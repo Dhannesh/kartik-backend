@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 const Campaign = require("../models/campaign");
 const Customer = require("../models/customer");
-const CommunicationLog = require("../models/CommunicationLog");
+const CommunicationLog = require("../models/communicationLog");
 const amqp = require("amqplib/callback_api");
 const { verifyToken } = require("../middleware/auth");
 
